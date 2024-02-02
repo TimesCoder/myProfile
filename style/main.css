@@ -1,0 +1,85 @@
+.content {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+.about {
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.option {
+  width: 100%;
+  padding: 10em 20em;
+  border: 2px solid aliceblue;
+}
+
+.option h2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+.ms {
+  background-image: url('http://ppp-templates.de/rs/images/about01.jpg');
+}
+.sm {
+  padding: 9.25em 20em;
+}
+.iconSm {
+  display: flex;
+  gap: 20px;
+}
+.isi {
+  padding: 0 20em;
+  margin: 0 auto;
+}
+.isi h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.isi p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
