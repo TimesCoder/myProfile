@@ -1,10 +1,13 @@
+main {
+  display: flex;
+}
 .content {
-  width: 100%;
-  margin: auto;
+  width: 1000px;
+  margin: 0 5em 0 15em;
   margin-top: 10px;
+  order: -1;
 }
 .about {
-  width: 500px;
   margin: auto;
   margin-top: 10px;
 }
@@ -16,32 +19,29 @@
   margin: 50px auto;
 }
 .option {
-  width: 100%;
-  padding: 10em 20em;
+  padding: 6.85em 8em;
   border: 2px solid aliceblue;
 }
 
 .option h2 {
   text-align: center;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: #000;
   margin-bottom: 20px;
 }
-.ms {
-  background-image: url('http://ppp-templates.de/rs/images/about01.jpg');
-}
+
 .sm {
-  padding: 9.25em 20em;
+  padding: 6.1em 5em;
+  text-transform: uppercase;
 }
 .iconSm {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
-.isi {
-  padding: 0 20em;
-  margin: 0 auto;
+.card a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
 }
 .isi h1 {
   text-align: center;
@@ -61,18 +61,13 @@
   margin-bottom: 20px;
 }
 
-.wrap {
-  display: flex;
-  gap: 20px;
-}
-
 .container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: azure;
+  background-color: #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -82,4 +77,29 @@
 .container:hover {
   transform: scale(1.05);
   transition: 0.5s;
+}
+
+.wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.html {
+  background-color: #f16529;
+}
+
+.css {
+  background-color: #13a2de;
+}
+
+.js {
+  background-color: #f8da59;
+}
+
+.sql {
+  background-color: #087dd7;
+}
+
+.python {
+  background-color: #306998;
 }

@@ -1,0 +1,26 @@
+<!-- <div class="caurosel">
+      <div class="slides">
+        <img
+          src="https://www.bhinneka.com/blog/wp-content/uploads/2023/05/tips-memahami-buku-dengan-mudah.jpg"
+          alt=""
+        />
+      </div>
+      <div class="slides">
+        <img
+          src="https://www.bhinneka.com/blog/wp-content/uploads/2023/05/tips-memahami-buku-dengan-mudah.jpg"
+          alt=""
+        />
+      </div>
+      <div class="slides">
+        <img
+          src="https://www.bhinneka.com/blog/wp-content/uploads/2023/05/tips-memahami-buku-dengan-mudah.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div> -->

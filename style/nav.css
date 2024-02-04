@@ -13,28 +13,25 @@ body {
 /* Navbar */
 header.navbar-container {
   width: 100%;
-  max-width: 1200px;
-  padding-block: 1rem;
+  max-width: 1500px;
+  padding-block: 2rem;
   margin-inline: auto;
- 
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
   z-index: 9999;
 }
 header .navbar-container .navbar{
   padding-left: 0;
   display: flex;
-  justify-content: center;
   gap: 2rem 1rem;
-
 }
 
 header.navbar-container .navbar a {
   padding: 0.1rem 1rem;
   border-radius: 999px;
   text-decoration: none;
+  text-transform: uppercase;
   font-size: 1.05rem;
   font-weight: 500;
   color: black;
@@ -45,6 +42,7 @@ header.navbar-container .navbar a {
   overflow: hidden;
 }
 .dropbtn{
+  text-transform: uppercase;
   background-color: inherit;
   border: none;
   border-radius: 999px;
@@ -54,7 +52,7 @@ header.navbar-container .navbar a {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #f2f2f2;
 }
 
 .dropdown-content {
@@ -77,73 +75,12 @@ header.navbar-container .navbar a {
 }
 
 .dropdown-content a:hover {
-  background-color: red;
+  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* Main */
-.caurosel {
-  width: 50%;
-  height: 50%;
-  position: relative;
-  margin: auto;
-  margin-top: 10px;
-}
-.caurosel img {
-  height: 500px;
-}
-.caurosel .slides {
-  display: none;
-}
-
-.caurosel .slides img {
-  width: 100%;
-  animation-name: fade;
-  animation-duration: 1.6s;
-}
-
-.caurosel .navigation {
-  position: absolute;
-  top: 50%;
-  transform: translateX(-50%, -50%);
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.caurosel .navigation .prev,
-.caurosel .navigation .next {
-  cursor: pointer;
-  padding: 16px;
-  font-weight: bold;
-  font-size: 20px;
-  color: #e60013;
-  background: #eaeaea;
-  transition: 0.5s ease;
-}
-
-.caurosel .navigation .prev:hover,
-.caurosel .navigation .next:hover {
-  color: #eaeaea;
-  background: #e60013;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/* ------------- */
-
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
-}
+/* End of Navbar */
 
 
