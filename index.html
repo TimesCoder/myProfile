@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/aside.css">
+    <link rel="stylesheet" href="./style/caurosel.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <title>Profil</title>
     <script src="script/courosel.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,7 +16,11 @@
 </head>
   <body>
     <header class="navbar-container">
-      <div class="logo">My Profile</div>
+      <div class="logo"> 
+        <a href="#home">
+          <img src="./assets/logo.svg" alt=""> <h1>JOSHUA BULYAN ZEBUA</h1>
+        </a>
+        </div>
       <nav>
         <div class="navbar">
           <a href="#home">Home</a>
@@ -44,7 +50,7 @@
                 <a href="#skils" class="option s">
                     <h2>My skills</h2>
                 </a>
-                <a href="#interest" class="option">
+                <a href="#interest" class="option i">
                   <h2>My interest</h2>
                 </a>
                 <div class="option sm">
@@ -82,21 +88,52 @@
                     <p>50%</p>
                   </div>
               </div>
+              <caurosel>
+                <h3>Some of my certificates</h3>
+                <div class="caurosel">
+                  <div class="slides">
+                    <img src="./assets/S js.png" alt="">
+                  </div>
+                  <div class="slides">
+                    <img src="./assets/s sql.png" alt="">
+                  </div>
+                  <div class="slides">
+                    <img src="./assets/s be.png" alt="">
+                  </div>
+                  <div class="slides">
+                    <img src="./assets/S uiux.png" alt="">
+                  </div>
+                  <div class="slides">
+                    <img src="./assets/s python.png" alt="">
+                  </div>
+                  <div class="navigation">
+                    <a class="prev" onclick="clickSlides(-1)">&#10094</a>
+                    <a class="next" onclick="clickSlides(-1)">&#10095</a>
+                  </div>
+                </div>
+              </caurosel>
          </article>
 
          <article id="education" class="isi">
               <h1>Education</h1>
-              <h3 class="container">SMA Methodist Tanjung Morawa</h3>
-              <h3 class="container">Mikroskil University</h3>
+              <h3>SMA Methodist Tanjung Morawa</h3>
+              <p>June 2017 - April 2020 </p>
+              <hr color="afa0a0">
+              <h3>Mikroskil University</h3>
+              <p>September 2022 - Recent (4rd semester)</p>
+              <hr color="afa0a0">
+              <h3>Dicoding Academy</h3>
+              <p>2021 - Now</p>
          </article>
 
          <article id="experience" class="isi">
               <h1>Experience</h1>
-              <div class="container">
+              <div class="">
                 <h3>Operator at PT. Mark Dynamics Indonesia Tbk</h3>
               <p>Juni 2021 - Juni 2022</p>
               </div>
-              <div class="container">
+              <hr color="afa0a0">
+              <div class="">
                 <h3>Freelance at Fastwork</h3>
                 <p>Des 2023 - Now</p>   
               </div>        
@@ -104,11 +141,17 @@
 
           <article id="interest" class="isi">
                 <h1>Interest</h1>
-                <h3 class="container">Reading</h3>
-                <h3 class="container">Playing Games</h3>
-                <h3 class="container">Watching Movies</h3>
-                <h3 class="container">Listening to Music</h3>
+                <h3 class="">Reading</h3>
+                <hr color="afa0a0">
+                <h3 class="">Playing Games</h3>
+                <hr color="afa0a0">
+                <h3 class="">Watching Movies</h3>
+                <hr color="afa0a0">
+                <h3 class="">Listening to Music</h3>
+                <hr color="afa0a0">
+                <h3>Learn new technology especially for software development</h3>
           </article>
+          <hr color="afa0a0">
       </div>
       <aside>
           <article class="miniprofil">
@@ -116,19 +159,25 @@
                   <img src="./assets/My photo.png" alt="Foto">
               </figure>
               <div class="biodata">
-                  <h2>Nama</h2>
+                  <h2>Name</h2>
                   <p>Joshua Bulyan Zebua</p>
-                  <hr>
-                  <h2>Umur</h3>
+                  <hr color="afa0a0">
+                  <h2>Age</h3>
                   <p>22 Tahun</p>
-                  <hr>
+                  <hr color="afa0a0">
                   <h2>Email</h2>
                   <p>joshuabulyan24@gmail.com</p>
-                  <hr>
+                  <hr color="afa0a0">
               </div>
           </article>
       </aside>
   </main>
-    <footer></footer>
+  <br>  
+  <footer>
+    <div class="footer">
+      <p> &copy; Copyright 2024 by <img src="./assets/logo.svg" alt=""> Joshua Bulyan Zebua</p>
+      <p>THANKYOU</p>
+    </div>
+  </footer>
   </body>
 </html>

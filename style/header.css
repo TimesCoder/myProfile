@@ -9,8 +9,36 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  background-color: whitesmoke;
 }
-/* Navbar */
+
+h1,
+h2,
+h3,
+p {
+  color: #afa0a0;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+.logo a {
+  display: flex;
+  font-size: 12px;
+  color: #afa0a0;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo :hover {
+  transform: scale(1.1);
+}
+
 header.navbar-container {
   width: 100%;
   max-width: 1500px;
@@ -21,7 +49,7 @@ header.navbar-container {
   align-items: center;
   z-index: 9999;
 }
-header .navbar-container .navbar{
+header .navbar-container .navbar {
   padding-left: 0;
   display: flex;
   gap: 2rem 1rem;
@@ -34,14 +62,14 @@ header.navbar-container .navbar a {
   text-transform: uppercase;
   font-size: 1.05rem;
   font-weight: 500;
-  color: black;
+  color: #afa0a0;
   transition: all 0.2s ease-in-out;
 }
 .dropdown {
   float: right;
   overflow: hidden;
 }
-.dropbtn{
+.dropbtn {
   text-transform: uppercase;
   background-color: inherit;
   border: none;
@@ -49,10 +77,12 @@ header.navbar-container .navbar a {
   font-size: 1.05rem;
   font-weight: 500;
   margin-left: 1rem;
+  color: #afa0a0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #f2f2f2;
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
 }
 
 .dropdown-content {
@@ -76,6 +106,7 @@ header.navbar-container .navbar a {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  transform: scale(1.1) rotate(1deg);
 }
 
 .dropdown:hover .dropdown-content {
@@ -83,4 +114,32 @@ header.navbar-container .navbar a {
 }
 /* End of Navbar */
 
+/* Untuk layar dengan lebar maksimum 768px */
+@media only screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  header .logo a{
+    margin-bottom: 1rem;
+
+  }
+  header .navbar-container .navbar {
+    flex-direction: column;
+    gap: 10rem;
+  }
+  header.navbar-container .navbar a {
+    padding: 0.5rem 1rem;
+  }
+  .dropdown {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+  }
+  .dropdown-content {
+    position: static;
+    display: none;
+  }
+}
 
