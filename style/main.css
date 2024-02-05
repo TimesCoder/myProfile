@@ -32,14 +32,14 @@ main {
 }
 
 .s {
-  background-image: url('/assets/skils.png');
+  background-image: url('./assets/skils.png');
   background-size: contain;
   width: 100%;
   height: 300px;
 }
 
 .i {
-  background-image: url('/assets/hobby.webp');
+  background-image: url('./assets/hobby.webp');
   background-size: contain;
   width: 100%;
   height: 300px;
@@ -106,25 +106,25 @@ main {
 }
 
 .css {
-  background-image: url('/assets/css.png');
+  background-image: url('./assets/css.png');
   background-size: contain;
   width: 100%;
 }
 
 .js {
-  background-image: url('/assets/javascript.webp');
+  background-image: url('./assets/javascript.webp');
   background-size: contain;
   width: 100%;
 }
 
 .sql {
-  background-image: url('/assets/sql.jpeg');
+  background-image: url('./assets/sql.jpeg');
   background-size: contain;
   width: 100%;
 }
 
 .python {
-  background-image: url('/assets/python.png');
+  background-image: url('./assets/python.png');
   background-size: contain;
   width: 100%;
 }
