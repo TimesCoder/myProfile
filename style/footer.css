@@ -1,9 +1,9 @@
 .footer {
-    width: 100%;
-    background-color: #f2f2f2;
-    text-align: center;
-    font-size: 15px;
-    color: #666;
-    border-top: 2px dotted #afa0a0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+  border-top: 2px dotted #afa0a0;
+  margin-top: 5em;
 }
-
